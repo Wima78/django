@@ -7,6 +7,7 @@ on:
   pull_request:
     branches:
       - dev # Le workflow s'exécute uniquement pour les pull requests vers la branche dev
+  workflow_dispatch: # Permet le déclenchement manuel du workflow
 
 env:
   REGISTRY: ghcr.io
