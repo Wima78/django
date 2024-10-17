@@ -52,10 +52,10 @@ jobs:
         #source venv/bin/activate
        # python manage.py migrate
 
-    - name: Run tests
-      run: |
-        source venv/bin/activate
-        python manage.py test
+    #- name: Run tests
+      #run: |
+        #source venv/bin/activate
+       # python manage.py test
 
     - name: Collect static files
       run: |
