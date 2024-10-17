@@ -57,7 +57,3 @@ jobs:
         #source venv/bin/activate
        # python manage.py test
 
-    - name: Collect static files
-      run: |
-        source venv/bin/activate
-        python manage.py collectstatic --noinput
